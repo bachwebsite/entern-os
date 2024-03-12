@@ -1,0 +1,43 @@
+.testicals {
+  color: greenyellow;
+  user-select: none;
+}
+
+.testicals#error {
+  color: red;
+}
+
+.testicals#info {
+  color: white;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+  cursor: pointer;
+  float: right;
+}
+
+.button#blue {
+  background-color: cadetblue;
+}
+
+.button#light {
+  background-color: white;
+}
+
+.button#dark {
+  background-color: black;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#customContextMenu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  /* Ensure it's above other elements */
+}

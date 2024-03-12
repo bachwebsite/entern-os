@@ -1,0 +1,20 @@
+body {
+  background: cadetblue;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.root {
+  background: cadetblue;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#input {
+  background-color: cadetblue;
+  font-family: monospace;
+  color: black;
+  border: none;
+  width: 70%;
+  font-size: 20px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EntermOS</title>
+  <link rel="stylesheet" href="data/normal.css">
+  <link rel="stylesheet" href="data/themes/main/style.css">
+  <div class="button" id="light" onclick="changetheme('light');"></div>
+  <div class="button" id="dark" onclick="changetheme('dark');"></div>
+  <div class="button" id="blue" onclick="changetheme('blue');"></div>
+</head>
+
+<body onload="appendTimer();">
+  <div id="customContextMenu">
+    <button id="helpButton">Help</button>
+  </div>
+  <script src="/data/index.js"></script>
+  <script src="/data/root.js" onload="appendText('Root file written successfully!');"></script>
+  <script src="/data/make.js" onload="appendText('Make file written successfully!');"></script>
+  <script src="/data/right.js" onload="appendText('Right click file written successfully!');"></script>
+  <script src="/data/themes.js" onload="appendText('Themes file written successfully!');"></script>
+  <script src="/data/commands.js" onload="appendText('Commands file written successfully!');"></script>
+</body>
+
+</html>
